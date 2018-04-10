@@ -1,8 +1,8 @@
-package bisnesslogic.addpublication;
+package mainpackage.bisnesslogic.addpublication;
 
-import bisnesslogic.Error;
-import database.PublicationDataBase;
-import domain.Publication;
+import mainpackage.database.PublicationDataBase;
+import mainpackage.domain.Publication;
+import mainpackage.bisnesslogic.Error;
 
 import java.util.ArrayList;
 import java.util.List;

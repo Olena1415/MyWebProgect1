@@ -1,8 +1,9 @@
-package bisnesslogic.addpublication;
+package mainpackage.bisnesslogic.addpublication;
+
+import mainpackage.database.PublicationDataBase;
+import mainpackage.domain.Publication;
+import mainpackage.bisnesslogic.Error;
 import java.util.List;
-import bisnesslogic.Error;
-import database.PublicationDataBase;
-import domain.Publication;
 
 public class AddPublicationServiss {
 
@@ -16,7 +17,7 @@ public class AddPublicationServiss {
     }
 
     public AddPublicationResponse addPublication(String title,
-                                         String description) {
+                                                 String description) {
         List<Error> validationErrors = addPublicationValidator.validate(title, description);
         if (!validationErrors.isEmpty()) {
             return new AddPublicationResponse(false, validationErrors);

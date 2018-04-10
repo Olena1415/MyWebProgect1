@@ -1,8 +1,8 @@
 package bisnesslogictest;
 
-import bisnesslogic.Error;
-import bisnesslogic.addpublication.*;
-import database.*;
+import mainpackage.bisnesslogic.Error;
+import mainpackage.bisnesslogic.addpublication.*;
+import mainpackage.database.*;
 
 import org.junit.Before;
 import org.junit.Test;

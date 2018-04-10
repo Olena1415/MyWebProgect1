@@ -1,9 +1,7 @@
-package bisnesslogic.addpublication;
+package mainpackage.bisnesslogic.addpublication;
 
 import java.util.List;
-import bisnesslogic.Error;
-
-
+import mainpackage.bisnesslogic.Error;
 
 public class AddPublicationResponse {
 

@@ -1,4 +1,4 @@
-package bisnesslogic;
+package mainpackage.bisnesslogic;
 
 public class Error {
     private String field;

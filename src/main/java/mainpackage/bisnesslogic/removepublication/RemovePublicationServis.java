@@ -1,14 +1,16 @@
-package bisnesslogic.removepublication;
+package mainpackage.bisnesslogic.removepublication;
+
+import mainpackage.database.PublicationDataBase;
+import mainpackage.domain.Publication;
+
 import java.util.Optional;
-import domain.Publication;
-import database.*;
 
 
 public class RemovePublicationServis {
 
     private PublicationDataBase publicationDataBase;
 
-    public RemovePublicationServis( PublicationDataBase publicationDataBase) {
+    public RemovePublicationServis(PublicationDataBase publicationDataBase) {
         this.publicationDataBase = publicationDataBase;
     }
 
