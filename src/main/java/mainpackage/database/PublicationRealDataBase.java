@@ -8,11 +8,11 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import org.springframework.stereotype.Component;
 
+@Component
 
 public class PublicationRealDataBase extends JDBCDatabase implements PublicationDataBase {
-
-
 
 
 

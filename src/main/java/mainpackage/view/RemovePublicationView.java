@@ -5,15 +5,19 @@ import mainpackage.database.PublicationDataBase;
 
 import java.util.Scanner;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class RemovePublicationView implements View {
 
 
-
+    @Autowired
     private RemovePublicationServis removePublicationServis;
 
-    public RemovePublicationView(PublicationDataBase database) {
+   /* public RemovePublicationView(PublicationDataBase database) {
         this.removePublicationServis = new RemovePublicationServis(database);
-    }
+    }*/
 
     @Override
     public void execute() {

@@ -5,16 +5,24 @@ import mainpackage.bisnesslogic.addpublication.AddPublicationServiss;
 import mainpackage.bisnesslogic.addpublication.AddPublicationValidator;
 import mainpackage.database.PublicationDataBase;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
 import java.util.Scanner;
 
+
+@Component
 public class AddPublicationView implements View {
 
+
+    @Autowired
     private AddPublicationServiss addPublicationServiss;
 
-    public AddPublicationView(PublicationDataBase database) {
+   /* public AddPublicationView(PublicationDataBase database) {
         AddPublicationValidator validator = new AddPublicationValidator(database);
         this.addPublicationServiss = new AddPublicationServiss(database, validator);
-    }
+    }*/
 
     @Override
     public void execute() {

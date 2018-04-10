@@ -1,5 +1,9 @@
 package mainpackage.view;
+import org.springframework.stereotype.Component;
 
+
+
+@Component
 public class ProgrammExitView implements View {
 
     @Override

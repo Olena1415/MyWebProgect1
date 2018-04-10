@@ -4,7 +4,9 @@ import mainpackage.database.PublicationDataBase;
 import mainpackage.domain.Publication;
 import mainpackage.bisnesslogic.Error;
 import java.util.List;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AddPublicationServiss {
 
     private PublicationDataBase publicationDataBase;
